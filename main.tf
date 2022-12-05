@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
-  aws_access_key_id = AKIATCKLJBDODTP5NEOC
-  aws_secret_access_key = 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    
+  access_key_id = "AKIATCKLJBDODTP5NEOC"
+  secret_access_key = "7vF7KnqlA+Bbbam/vFkGN9jbqpFDfqNXT2cNiC39"    
 }
 
 resource "aws_instance" "example" {
