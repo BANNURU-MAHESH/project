@@ -10,7 +10,7 @@ resource "aws_instance" "example" {
   ami           = "ami-02b972fec07f1e659"
   instance_type = "t2.medium"
   tags= {
-    Name = "${each.value" 
+    Name = "${each.key}"
   }
 }
 
